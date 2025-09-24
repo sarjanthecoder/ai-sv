@@ -226,9 +226,8 @@
         const loader = document.getElementById('loader');
         const errorMessage = document.getElementById('error-message');
 
-        const API_URL = 'http://127.0.0.1:5000/generate';
+        const API_URL = '/generate';        
         
-        // --- Event Listeners ---
         generateBtn.addEventListener('click', handleGenerate);
         regenerateBtn.addEventListener('click', handleGenerate); // Regenerate does the same as generate
         clearBtn.addEventListener('click', clearAll);
